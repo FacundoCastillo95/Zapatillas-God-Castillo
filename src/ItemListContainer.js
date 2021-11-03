@@ -1,8 +1,8 @@
 
 
-function ItemListContainer() {
+ const ItemListContainer = () => {
     return(
-      <>
+      
           <ol>
               <li>
                   Primer elemento
@@ -18,7 +18,7 @@ function ItemListContainer() {
               </li>
           </ol>
 
-      </>
+      
     );
   }
   

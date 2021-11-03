@@ -7,11 +7,13 @@ import ItemCount from './ItemCount';
 
 function App() {
   return (
-    <>
-   <Navbar/>
-   <ItemListContainer/>
-   <ItemCount/>
-   </>
+    <div>
+    <Navbar/>
+    <ItemListContainer/>
+    <div className = "itemCount">
+    <ItemCount/>
+    </div>
+   </div>
   );
 }
 
