@@ -6,7 +6,6 @@ import {
   Modal,
   ModalHeader,
   ModalBody,
-
   ModalFooter,
   Form,
 } from "reactstrap";
@@ -18,7 +17,7 @@ const ItemListContainer = (props) => {
     const [data, setData] = useState([]);
     const [keyword, setKeyword] = useState("");
     const [modalPhoto, setModalPhoto] = useState(false);
-    const [form, setForm] = useState();
+    const [form, setForm] = useState("");
 
   useEffect(() => {
     setData(props.products);
