@@ -6,7 +6,7 @@ import React, { useState } from 'react'
     const [count, setCount] = useState(1); 
 
     const sumar = () => {
-      if (count < props.stock) setCount(count + 1);
+      if (count < 20) setCount(count + 1);
       }
 
       const restar = () => {

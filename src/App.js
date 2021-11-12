@@ -1,19 +1,17 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Navbar from './Navbar';
-import ItemListContainer from './ItemListContainer'
-import ItemCount from './ItemCount';
+import Navbar from './components/Navbar';
+import {products} from './components/products';
+import ItemListContainer from './components/ItemListContainer'
+
 
 
 function App() {
   return (
     <div>
     <Navbar/>
-    <ItemListContainer/>
-    <div className = "itemCount">
-    <ItemCount stock= {5} initial= {1}/>
+    <ItemListContainer products={products} />
     </div>
-   </div>
   );
 }
 
