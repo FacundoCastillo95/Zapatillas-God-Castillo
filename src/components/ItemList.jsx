@@ -1,5 +1,6 @@
 import Item from "./Item";
 import { ProductsContainer } from './styledComponents';
+import { memo } from "react";
 
 const ItemList = ({ items }) => {
     return (
@@ -13,4 +14,4 @@ const ItemList = ({ items }) => {
     );
 }
 
-export default ItemList;
+export default memo(ItemList);
