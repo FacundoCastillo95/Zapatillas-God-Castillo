@@ -14,7 +14,7 @@ const ItemListContainer = () => {
 
     //componentDidUpdate
     useEffect(() => {
-        customFetch(2000, products.filter(item => {
+        customFetch(1000, products.filter(item => {
             if (idCategory === undefined) return item;
             return item.categoryId === parseInt(idCategory)
         }))
@@ -22,9 +22,12 @@ const ItemListContainer = () => {
             .catch(err => console.log(err))
     }, [datos]);
 
-    const onAdd = (qty) => {
-        alert("You have selected " + qty + " items.");
-    }
+    //componentWillUnmount
+    useEffect(() => {
+        return (() => {
+            setDatos([]);
+        })
+    }, []);
 
     return (
         <>  
