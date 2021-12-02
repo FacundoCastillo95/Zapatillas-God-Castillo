@@ -11,9 +11,9 @@ const NavBar = () => {
                     <Link to='/' style={{textDecoration: "none", color: "white"}}><Logo>ZAPATILLAS GOD</Logo></Link>
                 </Left>
                 <Center>
-                    <Link to='/category/9' style={{textDecoration: "none", color: "white"}}><MenuItem>Basket</MenuItem></Link>
-                    <Link to='/category/1' style={{textDecoration: "none", color: "white"}}><MenuItem>Casual</MenuItem></Link>
-                    <Link to='/category/5' style={{textDecoration: "none", color: "white"}}><MenuItem>Classic</MenuItem></Link>                    
+                    <Link to='/category/Basket' style={{textDecoration: "none", color: "white"}}><MenuItem>Basket</MenuItem></Link>
+                    <Link to='/category/Casual' style={{textDecoration: "none", color: "white"}}><MenuItem>Casual</MenuItem></Link>
+                    <Link to='/category/Classic' style={{textDecoration: "none", color: "white"}}><MenuItem>Classic</MenuItem></Link>                    
                 </Center>
                 <Right>
                     <MenuItem>REGISTER</MenuItem>
