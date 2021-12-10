@@ -8,7 +8,9 @@ _Este es un proyecto de una e-commerce 100% funcional para completar mi curso de
 ## Comenzando 🚀
 
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+_Deberás Forkear este proyecto si quieres tener una copia en tu propio repositorio de GitHub._
+
+_Si lo que deseas es tener una copia en tu computador local, debes bajarte el archivo ZIP._
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
