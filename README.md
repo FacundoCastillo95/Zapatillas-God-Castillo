@@ -1,7 +1,7 @@
 # Zapatillas God
 
 
-![Project's Screenshot](https://drive.google.com/file/d/1EAwdWOfjXOB80Cum85_DSqtaS55zdULk/view?usp=sharing)
+![Project's Screenshot](/ZapatillasGod.png)
 
 _Este es un proyecto de una e-commerce 100% funcional para completar mi curso de Rect Js en CodereHouse._
 
