@@ -3,7 +3,7 @@
 
 ![Project's Screenshot](/ZapatillasGod.png)
 
-_Este es un proyecto de una e-commerce 100% funcional para completar mi curso de Rect Js en CodereHouse._
+_Este es un proyecto de una e-commerce 100% funcional para completar mi curso de Rect Js en CoderHouse._
 
 ## Comenzando 🚀
 
