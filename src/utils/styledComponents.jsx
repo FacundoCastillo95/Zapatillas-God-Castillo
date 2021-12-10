@@ -210,6 +210,7 @@ const ProductPrice = styled.div`
   font-weight: 200;
 `;
 
+
 const Top = styled.div`
   display: flex;
   align-items: center;
@@ -236,6 +237,9 @@ const Bottom = styled.div`
   justify-content: space-between;
 `;
 
+const InfoCart = styled.div`
+  flex: 3;
+`;
 
 
 const Summary = styled.div`
@@ -270,6 +274,7 @@ const Button = styled.button`
   font-weight: 600;
 `;
 
+
 export { 
     Wrapper, Logo, MenuItem, Left, Center, Right, 
     ProductAmountContainer, ProductAmount, 
@@ -277,5 +282,5 @@ export {
     Circle, Image, Info, Icon,
     DetailContainer, WrapperDetail, ImgContainer, ImageDetail, InfoContainer, Title, Desc, Price,
     WrapperCart, TitleCart, ContentCart, Product, ProductDetail, ImageCart, Details, PriceDetail, ProductPrice,
-    Top, TopButton, TopText, Bottom, Summary, SummaryTitle, SummaryItem, SummaryItemText, SummaryItemPrice, Button
+    Top, TopButton, TopText, Bottom, Summary, SummaryTitle, SummaryItem, SummaryItemText, SummaryItemPrice, Button,InfoCart
 }

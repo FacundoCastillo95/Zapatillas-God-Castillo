@@ -1,5 +1,5 @@
 import Item from "./Item";
-import { ProductsContainer } from './styledComponents';
+import { ProductsContainer } from '../utils/styledComponents';
 import { memo } from "react";
 
 const ItemList = ({ items }) => {

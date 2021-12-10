@@ -1,5 +1,5 @@
 import ItemCount from './ItemCount';
-import { DetailContainer, WrapperDetail, ImgContainer, ImageDetail, InfoContainer, Title, Desc, Price } from './styledComponents';
+import { DetailContainer, WrapperDetail, ImgContainer, ImageDetail, InfoContainer, Title, Desc, Price } from '../utils/styledComponents';
 import { Link } from "react-router-dom";
 import { Button } from '@material-ui/core';
 import {useState,useContext} from 'react';
